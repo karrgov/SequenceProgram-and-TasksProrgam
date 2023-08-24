@@ -32,6 +32,7 @@ class Sequence
         {
             throw std::invalid_argument("Inavlid index");
         }
+        return this->data[index];
     }
 
     class SequenceIterator
